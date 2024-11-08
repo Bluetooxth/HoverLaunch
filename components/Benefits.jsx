@@ -3,7 +3,7 @@ import React from "react";
 const Benefits = () => {
   return (
     <section className="flex justify-center items-start w-full">
-      <div className="flex flex-col justify-start items-center lg:container w-[95vw] px-5 gap-7">
+      <div className="flex flex-col justify-start items-center lg:container w-[95vw] gap-7">
         <h2 className="text-3xl font-medium">Benefits for Startups</h2>
         <ul className="list-disc list-inside text-left max-w-[500px] mx-auto text-gray-300 text-lg">
           <li>Increased visibility in the tech ecosystem</li>

@@ -5,8 +5,8 @@ import { LiaHourglassStartSolid } from "react-icons/lia";
 const Hero = () => {
   return (
     <section className="flex justify-center items-start w-full">
-      <div className="flex flex-col justify-center items-center lg:container w-[95vw] px-5 gap-5 py-[300px]">
-        <h2 className="text-6xl md:text-7xl font-semibold text-center">
+      <div className="flex flex-col justify-center items-center lg:container w-[95vw] gap-5 md:py-[300px] py-[200px]">
+        <h2 className="text-5xl md:text-7xl font-semibold text-center">
           Welcome to{" "}
           <span
             className=""

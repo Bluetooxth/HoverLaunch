@@ -24,7 +24,7 @@ const WhyHere = () => {
 
   return (
     <section className="flex justify-center items-start w-full">
-      <div className="flex flex-col justify-start items-start lg:container w-[95vw] px-5 gap-7">
+      <div className="flex flex-col justify-start items-start lg:container w-[95vw] gap-7">
         <h2 className="text-4xl font-medium text-center self-center">
           Why Showcase Here
         </h2>
