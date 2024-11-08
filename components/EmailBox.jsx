@@ -1,4 +1,5 @@
 import React from "react";
+import { GiTriangleTarget } from "react-icons/gi";
 
 const EmailBox = () => {
   return (
@@ -16,8 +17,8 @@ const EmailBox = () => {
                 placeholder="you@yourdomain.com"
                 className="w-full py-1 md:py-2 px-5 bg-zinc-800 text-lg text-slate-50 rounded-md border-2 border-zinc-600 outline-none"
               />
-              <button className="py-1 md:py-2 px-5 bg-orange-500 hover:bg-orange-600 transition duration-500 ease-in-out text-slate-50 rounded-md text-lg cursor-pointer w-full">
-                Get Information
+              <button className="py-1 md:py-2 px-5 bg-orange-500 hover:bg-orange-600 transition duration-500 ease-in-out text-slate-50 rounded-md text-lg cursor-pointer w-full flex items-center gap-2">
+                Get Information <GiTriangleTarget className="inline-block" />
               </button>
             </div>
           </div>
