@@ -29,7 +29,7 @@ const Features = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-start items-stretch w-full gap-5">
           {features.map((feature, index) => (
             <div
-              className="flex flex-col justify-start items-start w-full rounded-lg bg-zinc-800 shadow-md p-5 gap-1 border-[3px] border-transparent hover:border-orange-400 transition duration-500 ease-in-out cursor-pointer"
+              className="flex flex-col justify-start items-start w-full rounded-lg bg-zinc-900 shadow-md p-5 gap-1 border-[3px] border-zinc-700 hover:border-orange-400 transition duration-500 ease-in-out cursor-pointer"
               key={index}
             >
               <div className="flex justify-center items-center bg-gradient-to-br from-orange-400 to-cyan-400 text-slate-50 rounded-md p-2 text-2xl">
