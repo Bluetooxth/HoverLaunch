@@ -23,9 +23,20 @@ const Hero = () => {
           Showcase your links, startups and projects to a global audience of
           tech enthusiasts, investors, and potential customers.
         </p>
-        <Link href={'#email'} className="py-2 px-5 bg-orange-500 hover:bg-orange-600 transition duration-500 ease-in-out rounded-md text-lg cursor-pointer flex items-center gap-2">
+        <Link
+          href={"#email"}
+          className="py-2 px-5 bg-orange-500 hover:bg-orange-600 transition duration-500 ease-in-out rounded-md text-lg cursor-pointer flex items-center gap-2"
+        >
           Reserve Your Spot <LiaHourglassStartSolid className="inline-block" />
         </Link>
+        <div className="grid grid-cols-10 justify-center items-center gap-1 mt-2">
+          {Array.from({ length: 100 }).map((_, index) => (
+            <div
+              key={index}
+              className="lg:h-12 lg:w-12 h-7 w-7 rounded-sm bg-slate-100 bg-opacity-15 hover:bg-opacity-25 transition duration-500 ease-in-out"
+            ></div>
+          ))}
+        </div>
       </div>
     </section>
   );
